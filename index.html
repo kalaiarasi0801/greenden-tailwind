@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenDen</title>
+    <!--Tailwind-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl ">GreenDen</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 w-6 h-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class=" gap-5 text-gray-600 hidden md:flex ">
+            <li>
+                <a href="./index.html" class="hover:underline hover:text-black"> Home </a>
+            </li>
+            <li>
+                <a href="./products.html" class="hover:underline hover:text-black"> Products </a>
+            </li>
+            <li>
+                <a href="./contact.html" class="hover:underline hover:text-black"> Contact </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <!--header section-->
+    <section class="bg-green-100 p-4 md:p-10 flex justify-center">
+        <div>
+            <p class="mb-4">We offer a wide range of Artificial and Natural flowers</p>
+            <h2 class="font-bold text-3xl mb-5 md:text-4xl ">Plants for your Interior</h2>
+            <div>
+                <button class="bg-black rounded p-2 text-white">Shop Now</button>
+                <button class="border border-black rounded p-2">Watch Video</button>
+            </div>
+            <p class="mt-5">250+ Plant species | 1000+ Customers</p>
+        </div>
+        <div class="hidden md:block p-5 ">
+            <img src="./image/flower pot.jpg " alt="Flowerpot" class="w-60">
+        </div>
+    </section>
+
+
+    <!--about section-->
+    <section class="text-center cursor-pointer">
+        <h1 class="font-bold text-3xl mt-5">About Us</h1>
+        <p>This site is for people who's love language is Plants and Nature</p>
+        <div class="md:flex">
+            <div class="border border-black p-2 m-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-20 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0 1 18 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3 1.5 1.5 3-3.75" />
+                </svg>
+
+                <h2 class="text-xl font-medium">Large Assortment</h2>
+                <p>Explore our wide-ranging selection of plants, carefully chosen to suit every need and preference.
+                    From rare indoor species to hardy outdoor plants, we offer a diverse array to enhance any space with
+                    natural beauty, freshness, and charm.</p>
+            </div>
+            <div class="border border-black p-2 m-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-20 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3" />
+                </svg>
+
+                <h2 class="text-xl font-medium">Free and Fast Shipping</h2>
+                <p>Get your plants delivered quickly and at no extra cost with our free and fast shipping service. We
+                    prioritize careful packaging and speedy delivery to ensure your plants arrive healthy and ready to
+                    enhance your space without delay.</p>
+            </div>
+            <div class="border border-black p-2 m-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-20 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+                </svg>
+
+                <h2 class="text-xl font-medium">24/7 Support</h2>
+                <p>Our 24/7 support team is here to make your plant shopping experience seamless. Whether you have
+                    questions about plant care, need help with your order, or seek expert advice, we’re always available
+                    to provide prompt, friendly assistance.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Best seller-->
+
+    <section class="p-5 text-center">
+        <h1 class="font-bold mt-5 text-3xl">Best Seller</h1>
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+            <div><img src="./image/flower_1.png" class=" rounded inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="cursor-pointer hover:underline">Rose</h1>
+                <p>Rs.250</p>
+            </div>
+            <div><img src="./image/flower_2.png" class=" rounded inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="cursor-pointer hover:underline">Monstera Deliciosa</h1>
+                <p>Rs.500</p>
+            </div>
+            <div><img src="./image/flower_3.png" class=" rounded inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="cursor-pointer hover:underline">Chinese Money Plant</h1>
+                <p>Rs.1000</p>
+            </div>
+            <div><img src="./image/flower_4.png" class=" rounded inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1 class="cursor-pointer hover:underline">Bonsai</h1>
+                <p>Rs.2000</p>
+            </div>
+        </div>
+    </section>
+
+    <!--customer review-->
+    <section class="cursor-pointer">
+        <h1 class="text-3xl text-center mt-5 font-bold">Customer Review</h1>
+        <div class="flex flex-col gap-5 justify-center text-white m-5">
+            <div class="bg-green-400 p-5 container">
+                <p>I recently purchased a plant from Greenden, and I couldn't be happier with my experience. The plant
+                    arrived in excellent condition, carefully packaged, and looked incredibly fresh and vibrant. It’s
+                    clear that they prioritize quality and customer satisfaction. Highly recommend Greenden for anyone
+                    looking to buy healthy, well-cared-for plants</p>
+                <p class="font-bold text-black">Geogre Mathew ⭐⭐⭐⭐</p>
+            </div>
+            <div class="bg-green-400 p-5 container">
+                <p>I purchased a plant from the Greenden website, and I’m very pleased with my experience! The plant
+                    arrived fresh, carefully packaged, and right on time. It’s clear Greenden takes great care in their
+                    service and product quality. Highly recommend them for anyone looking for beautiful, healthy plants
+                </p>
+                <p class="font-bold text-black">Carolina ⭐⭐⭐⭐</p>
+            </div>
+            <div class="bg-green-400 p-5 container">
+                <p>I bought a plant from the Greenden website, and I'm impressed! The plant arrived perfectly fresh with
+                    zero damage. The packaging was secure, and it was clear that a lot of care went into ensuring the
+                    plant's quality. Highly recommend Greenden for their reliable service and healthy plants</p>
+                <p class="font-bold text-black">Joseph ⭐⭐⭐⭐⭐</p>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+
+    <!--newsletter-->
+    <section class="text-center cursor-default">
+        <h1 class="font-bold text-3xl mt-5 text-center">Join Our News letter</h1>
+        <p class="mt-3">Sign Up for Exclusive updates and discounts</p>
+        <input type="text " class="border border-black p-3 m-3 mt-3" style="width: 80%;">
+        <br>
+        <button class="bg-black text-green-100 p-3 rounded m-2 hover:underline hover:cursor-pointer">Subscribe</button>
+    </section>
+
+    <!--footer-->
+    <section class="cursor-default bg-green-100 p-10 mt-5">
+<h1 class="text-4xl font-bold mt-3">GreenDen</h1>
+<p class="mt-3">Happy Plant ! Happy customer ! Happy Us</p>
+<p class="mt-3">&copy;2024 GreenDen.com</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
